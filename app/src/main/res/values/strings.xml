@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">CopyNubank</string>
-    <string name="txt_name_usuario">Olá, Geovane</string>
+    <string name="txt_name_usuario">Olá, Ricardo Ribeiro</string>
     <string name="txt_saldo_conta">Conta \n\n R$ 5002,42</string>
 </resources>

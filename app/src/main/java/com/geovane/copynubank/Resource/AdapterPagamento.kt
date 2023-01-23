@@ -24,7 +24,7 @@ class AdapterPagamento(private val context: Context, private val listaPagamento:
     override fun getItemCount() = listaPagamento.size
 
 
-    inner class  PagamentoViewHolder(binding: ResPagamentoItemBinding) : RecyclerView.ViewHolder(binding.root) {
+    inner class PagamentoViewHolder(binding: ResPagamentoItemBinding) : RecyclerView.ViewHolder(binding.root) {
         val iconePagamento = binding.icPagamento
         val txtTituloPagamento = binding.txtTituloPagamento
     }
