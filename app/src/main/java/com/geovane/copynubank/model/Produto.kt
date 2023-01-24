@@ -1,3 +1,5 @@
 package com.geovane.copynubank.model
 
-data class Produto()
+data class Produto(
+    val text: String? = null
+)
