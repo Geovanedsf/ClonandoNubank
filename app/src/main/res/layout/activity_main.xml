@@ -45,7 +45,7 @@
             android:textSize="18sp"
             android:textStyle="bold"
             android:textColor="@color/white"
-            android:layout_marginBottom="30dp"
+            android:layout_marginBottom="31dp"
             app:layout_constraintTop_toBottomOf="@id/contairCirculo"
             android:layout_marginTop="30dp"
             android:layout_marginStart="20sp"
