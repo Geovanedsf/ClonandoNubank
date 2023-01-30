@@ -1,4 +1,4 @@
-package com.geovane.copynubank.Resource
+package com.geovane.copynubank.resource
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -12,7 +12,8 @@ class AdapterPagamento(private val context: Context, private val listaPagamento:
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PagamentoViewHolder {
-        val itemLista = ResPagamentoItemBinding.inflate(LayoutInflater.from(context), parent, false)
+        val itemLista = ResPagamentoItemBinding.inflate(LayoutInflater.from(
+            context), parent, false)
         return PagamentoViewHolder(itemLista)
     }
 
@@ -24,7 +25,8 @@ class AdapterPagamento(private val context: Context, private val listaPagamento:
     override fun getItemCount() = listaPagamento.size
 
 
-    inner class PagamentoViewHolder(binding: ResPagamentoItemBinding) : RecyclerView.ViewHolder(binding.root) {
+    inner class PagamentoViewHolder(binding: ResPagamentoItemBinding) :
+        RecyclerView.ViewHolder(binding.root) {
         val iconePagamento = binding.icPagamento
         val txtTituloPagamento = binding.txtTituloPagamento
     }

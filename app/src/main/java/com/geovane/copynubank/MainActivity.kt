@@ -3,8 +3,8 @@ package com.geovane.copynubank
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.geovane.copynubank.Resource.AdapterPagamento
-import com.geovane.copynubank.Resource.AdapterProduto
+import com.geovane.copynubank.resource.AdapterPagamento
+import com.geovane.copynubank.resource.AdapterProduto
 import com.geovane.copynubank.databinding.ActivityMainBinding
 import com.geovane.copynubank.model.Pagamento
 import com.geovane.copynubank.model.Produto

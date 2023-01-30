@@ -1,4 +1,4 @@
-package com.geovane.copynubank.Resource
+package com.geovane.copynubank.resource
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -21,7 +21,7 @@ class AdapterProduto(private val context: Context, private val listaProdutos: Mu
 
     override fun getItemCount() = listaProdutos.size
 
-    class ProdutoViewHolder(binding: ProdutoItemBinding) : RecyclerView.ViewHolder(binding.root) {
+    inner class ProdutoViewHolder(binding: ProdutoItemBinding) : RecyclerView.ViewHolder(binding.root) {
         val txtInformativo = binding.txtInformativo
     }
 }
